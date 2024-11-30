@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assents/img/samurai.jpg"
+      type="image/x-icon"
+    />
+    <title>Dungeon Rampage</title>
+    <link rel="stylesheet" href="/css/experiencia.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Dungeon Rampage</h1>
+        <ul>
+          <li class="li"><a href="../index.html">Informacion</a></li>
+          <li class="li"><a href="/pages/personajes.html">Personajes</a></li>
+          <li class="li"><a href="/pages/audiovisuales.html">Audivisuales</a></li>
+          <li class="li"><a href="/pages/cierre.html">Cierre</a></li>
+          <li class="li"><a href="/pages/remake.html">Remake</a></li>
+          <li class="li"><a class="active" href="/pages/expInfo.html">Informacion de experiencia</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="contenedor-formulario">
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required minlength="3" maxlength="255">
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required minlength="3" maxlength="255">
+
+        <select name="pais" id="pais" required>
+          <option value="Argentina">Argentina</option>
+          <option value="Chile">Chile</option>
+          <option value="Uruguay">Uruguay</option>
+          <option value="Paraguay">Paraguay</option>
+          <option value="Bolivia">Bolivia</option>
+          <option value="Peru">Peru</option>
+          <option value="Brazil">Brazil</option>
+          <option value="Colombia">Colombia</option>
+          <option value="Ecuador">Ecuador</option>
+          <option value="Venezuela">Venezuela</option>
+          <option value="Mexico">Mexico</option>
+          <option value="El Salvador">El Salvador</option>
+          <option value="España">España</option>
+        </select>
+
+        <label for="comentario">Comentario:</label>
+        <textarea name="comentario" id="comentario" placeholder="Cuantame un poco sobre tu experienciade en Dungeon Ramapge"></textarea>
+
+        <label for="personajeFavorito">Cúal era tu personaje/s favorito:</label><br>
+        <input type="checkbox" id="personajeFavorito" name="personajeFavorito"><i>Berserker</i><br>
+        <input type="checkbox" id="personajeFavorito" name="personajeFavorito"><i>Ranger</i><br>
+        <input type="checkbox" id="personajeFavorito" name="personajeFavorito"><i>Sorcerer</i><br>
+        <input type="checkbox" id="personajeFavorito" name="personajeFavorito"><i>Battle Chef</i><br>
+        <input type="checkbox" id="personajeFavorito" name="personajeFavorito"><i>Vampire Hunter</i><br>
+        <input type="checkbox" id="personajeFavorito" name="personajeFavorito"><i>Ghost Samurai</i><br>
+        <input type="checkbox" id="personajeFavorito" name="personajeFavorito"><i>Pyromancer</i><br>
+        <input type="checkbox" id="personajeFavorito" name="personajeFavorito"><i>Dragon Kceckbox</i>
+
+        <input type="submit" value="enviar">
+      </form>
+    </div>
+
+    <footer class="footer">
+      <p>Derechos reservados &copy; 2024</p>
+    </footer>
+  </body>
+</html>
